@@ -1,0 +1,28 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Belajar Javascript - NIOMIC</title>
+  </head>
+  <body>
+    <h2>Login</h2>
+    <p class="department">- Department of Finance -</p>
+    <input type="email" id="email" value="email"><br><br>
+    <input type="username" id="" value="username"><br><br>
+    <input type="password" class="password" value="password"><br><br>
+
+    <button type="button" name="button" onclick="panggilDOM()">Jalan</button>
+
+    <script>
+      function panggilDOM() {
+        console.log(document.getElementById("email"))
+        console.log(document.getElementsByTagName("h2"))
+        console.log(document.getElementsByClassName("password"))
+        console.log(document.querySelector(".department"))
+      }
+
+      panggilDOM()
+    </script>
+  </body>
+</html>
